@@ -6,8 +6,8 @@ Z = [None, 0.824, 0.727, 0.742, 0.85, 0.786,0.678, 0.575]
 L = [None, 34.26078, 38.1548, 63.9268, 88.0549, 40.27062, 90.73614, 55.42816]
 
 print('七个监测站')
-findLocal.find_local(X, Y, Z, L, 'SLSQP', funMethod='abs', constraints=True)
+findLocal.find_local(X, Y, Z, L=L, method='SLSQP', funMethod='abs', constraints=True)
 for i in [X, Y, Z, L]:
     i.pop(-3)
 print('\n去除误差较大的检测塔E')
-findLocal.find_local(X, Y, Z, L, 'SLSQP', funMethod='abs', constraints=True)
+findLocal.find_local(X, Y, Z, L=L, method='SLSQP', funMethod='abs', constraints=True)
