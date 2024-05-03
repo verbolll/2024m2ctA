@@ -1,3 +1,6 @@
+# alltime.py
+# 读取时间组合文件
+
 def all_time(file):
 
     with open(file, 'r') as file:

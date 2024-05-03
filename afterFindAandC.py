@@ -1,3 +1,5 @@
+# afterFindAandC.py
+# 找出所有时间组合的误差后选出误差最小的组合
 import csv
 
 def findAandC(filename):

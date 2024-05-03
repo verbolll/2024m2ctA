@@ -1,3 +1,5 @@
+# findAllCombination.py
+# 找出所有时间组合方式
 from itertools import product
 import numpy as np
 

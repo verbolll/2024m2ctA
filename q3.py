@@ -1,3 +1,5 @@
+# q3.py
+# 匹配四组时间并求出四个音爆发生的位置与时间
 import findAllCombination
 import findLocal
 import afterFindAandC
