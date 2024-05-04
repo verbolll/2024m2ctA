@@ -1,3 +1,5 @@
+# q4plot.py
+# 添加随机误差后坐标与时间分布
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt

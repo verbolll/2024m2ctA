@@ -1,3 +1,5 @@
+# q4.py
+# 添加随机误差修正后定位残骸与绘图
 import numpy as np
 import q4findLocal
 import q4plot

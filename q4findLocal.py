@@ -1,5 +1,5 @@
-# findLocal.py  
-# 找出音爆时的位置与时间 
+# q4findLocal.py  
+# 修正后找出音爆时的位置与时间 
 from scipy.optimize import minimize
 import numpy as np
 import alltime
